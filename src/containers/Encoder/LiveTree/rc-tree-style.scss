@@ -1,0 +1,33 @@
+.rc-tree {
+  margin: 0;
+  padding-left: 0;
+
+  li {
+    list-style-type: none;
+    border: solid 1px transparent;
+    padding: 2.5px;
+
+    :hover {
+      background-color: #bad3fc;
+    }
+
+    // width: 100%;
+
+    // span {
+      // width: 100%;
+      // display: block;
+    // }
+  }
+}
+
+// li.rc-tree-treenode-selected {
+//   border: solid 1px red;
+// }
+
+li.being-accessed-by-other {
+  border: solid 1px blueviolet;
+}
+
+li.being-accessed-by-me {
+  border: solid 1px crimson;
+}

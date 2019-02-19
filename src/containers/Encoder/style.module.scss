@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.tree_container {
+  border: solid 1px black;
+  width: 150px;
+  overflow: auto;
+}
+
+.viewer_container {
+  min-width: 500px;
+  max-width: 1000px;
+  height: 100%;
+  overflow: auto;
+}
+
+.encoding_container {
+  border: solid 1px black;
+  width: 400px;
+  height: 100%;
+  overflow: auto;
+}
